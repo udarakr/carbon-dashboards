@@ -814,8 +814,10 @@ $(function () {
         var id = $('.id', sandbox).val();
         var title = $('.title', sandbox).val();
         var landing = $('.landing', sandbox);
+        var icon = $('.icon', sandbox).val();
         page.id = id;
         page.title = title;
+        page.icon = icon;
         if (landing.is(':checked')) {
             dashboard.landing = id;
         }
@@ -830,12 +832,10 @@ $(function () {
      * @param page
      */
     var renderPageProperties = function (page) {
-        $('#ues-properties').find('.ues-content').html(pageOptionsHbs({
-            id: page.id,
-            title: page.title
-        })).find('.ues-sandbox').on('change', 'input', function () {
-            updatePageProperties($(this).closest('.ues-sandbox'));
-        });
+        $('#ues-properties').find('.ues-content').html(pageOptionsHbs(page))
+            .find('.ues-sandbox').on('change', 'input', function () {
+                updatePageProperties($(this).closest('.ues-sandbox'));
+            });
         var toggle = $('#ues-workspace-designer').find('.ues-context-menu')
             .find('.ues-context-menu-actions')
             .find('.ues-page-properties-toggle');

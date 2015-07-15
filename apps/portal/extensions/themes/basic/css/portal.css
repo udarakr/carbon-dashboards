@@ -1,0 +1,28 @@
+h2.app-title {
+    text-transform: none;
+}
+
+.app-logo {
+    padding-left: 0;
+}
+
+.app-logo img {
+    top: -4px;
+    position: relative;
+}
+
+.ues-global-navigation {
+    background: #2A363B;
+}
+
+.ues-context-menu .ues-tiles-menu-toggle {
+    background: #913143;
+}
+
+.ues-context-menu .ues-tiles-menu-toggle:hover {
+    background: #e03353;
+}
+
+.ues-context-menu {
+    background: #913143;
+}

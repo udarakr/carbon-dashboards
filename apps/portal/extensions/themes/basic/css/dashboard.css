@@ -1,0 +1,99 @@
+
+body {
+    background: #f9f6f1;
+    padding-top: 50px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#navigation {
+    margin-bottom: 0;
+}
+
+#navigation .navbar-brand {
+    padding-top: 8px;
+}
+
+#ues-dashboard-menu {
+    width: 74px;
+    float: left;
+    height: 100%;
+    position: fixed;
+}
+
+#ues-dashboard-menu-actions {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#ues-dashboard-menu .nav-tabs {
+    width: 100%;
+    border-bottom: none;
+}
+
+#ues-dashboard-menu .nav-tabs li {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#ues-dashboard-menu-actions .navbar-nav > li > a {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 0;
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+}
+
+#ues-dashboard-menu-actions .navbar-nav > li > a .fa {
+    font-size: 25px;
+}
+
+#wrapper {
+    padding-top: 20px;
+    position: fixed;
+    height: calc(100% - 100px);
+    margin-left: 74px;
+    width: calc(100% - 74px);
+    overflow: scroll;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #888;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #888;
+}
+
+.panel-default > .panel-heading {
+    background: #f9f6f1;
+}
+
+.panel {
+    border-radius: 0;
+}
+
+.panel-default {
+    border-color: #d6d6d6;
+}
+
+.panel-default.ues-borderless {
+    border: 1px solid #d6d6d6;
+}
+
+.navbar-inverse {
+    border: 1px solid #d6d6d6;
+    background: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #b2afaa;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #b2afaa;
+}
