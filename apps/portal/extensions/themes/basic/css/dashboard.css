@@ -25,6 +25,10 @@ body {
     padding-right: 0;
 }
 
+#ues-dashboard-menu-actions .navbar-nav {
+    margin: 0;
+}
+
 #ues-dashboard-menu .nav-tabs {
     width: 100%;
     border-bottom: none;
@@ -83,6 +87,7 @@ body {
 
 .panel-default.ues-borderless {
     border: 1px solid #d6d6d6;
+    margin-bottom: 20px;
 }
 
 .navbar-inverse {
@@ -96,4 +101,8 @@ body {
 
 .navbar-inverse .navbar-brand {
     color: #b2afaa;
+}
+
+.navbar-inverse .navbar-toggle {
+    background: #333;
 }
