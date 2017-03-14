@@ -29,7 +29,7 @@ widget.renderer = {};
             + '<i class="icon fw fw-delete"></i>'
             + '</button></div></div></div>'
             + '<div class="gadget-body ues-component-body">'
-            + widget
+            + widget.html
             + '</div></div>';
     };
 
