@@ -248,9 +248,6 @@
      * @param widgetID
      */
     var addWidgetToDashboardJSON = function (blockID, widgetID) {
-        if (!dashboard.widgets) {
-            dashboard.widgets = {};
-        }
         dashboard.widgets[blockID] = widgetInfo[widgetID];
         dashboard.widgets[blockID].url = Constants.FRAGMENT_URL + widgetID;
     };
